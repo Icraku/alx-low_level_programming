@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 /**
- * main - C program that prints the last digit of a randomly genwrated number and whether it is greater than 5, less than 6 or 0.
+ * main - program that prints last digit of a random number.
  *
  * Return: Always 0 (Success)
  */
