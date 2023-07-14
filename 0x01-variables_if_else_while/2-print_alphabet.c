@@ -1,4 +1,4 @@
-/**
+/*
  * File: 2-print_alphabet.c
  * Auth: Brennan D Baraban
  */
@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main - Program that prints the alphabet letters in lowercase.
+ * main - Prints the alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
