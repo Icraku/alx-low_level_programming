@@ -7,18 +7,27 @@
  */
 int main(void)
 {
-	int num;
+	int num = 0;
+	int tens;
+	int ones;
 
-	for (num = 0; num <= 9; num++)
+	while (num <= 99)
 	{
-		putchar(num + '0');
-		if (num != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
+		tens = num % 10;
+		ones = num / 10;
 
+		if (ones < tens)
+		{
+			putchar(ones + '0');
+			putchar(tens + '0');
+			if (num < 89)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+		num++;
+	}
 	putchar('\n');
 
 	return (0);
