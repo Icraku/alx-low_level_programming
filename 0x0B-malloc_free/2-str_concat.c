@@ -1,4 +1,4 @@
-#include "main.h"		
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -11,12 +11,12 @@ char *str_concat(char *s1, char *s2)
 {
 	char *conCat;
 	int f, cf;
-	
+
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	
+
 	f = cf = 0;
 	while (s1[f] != '\0')
 		f++;
