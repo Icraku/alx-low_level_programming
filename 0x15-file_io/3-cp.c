@@ -46,8 +46,7 @@ void copy_file(const char *file_from, const char *file_to)
 		exit(99);
 	}
 
-	do
-	{
+	do {
 		r = read(fd_from, buffer, BUFFER_SIZE);
 		if (r == -1)
 		{
