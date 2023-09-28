@@ -23,8 +23,11 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[strLen] != '0' && b[strLen] != '1')
 			return (0);
+
 		convertedInt += (b[strLen] - '0') * multiplier;
+
 		multiplier *= 2;
 	}
+
 	return (convertedInt);
 }
